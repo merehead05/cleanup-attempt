@@ -1,0 +1,19 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+*.swp
+
+# Logs / temp
+*.log
+*.tmp
+
+# Node (if applicable)
+node_modules/
+dist/
+build/
+
+# Env files
+.env*
