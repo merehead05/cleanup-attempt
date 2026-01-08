@@ -1,0 +1,11 @@
+/* making sure sidebar and main content fill available space */
+.page {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 1200px) 1fr;
+}
+
+.layout {
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr);
+}
